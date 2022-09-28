@@ -33,7 +33,7 @@ public class SendMessages {
     public static void main(String[] args) {
 System.out.println("start");
        
-        AwsCredentials awsCredentials= AwsBasicCredentials.create("AKIAUZZQUTZTNUCAPMDB", "as0H2Rp0AQCJ3EJX9gsPa4TxmqWdKRnCzTjamSy5");
+        AwsCredentials awsCredentials= AwsBasicCredentials.create("", "");
       
         SqsClient sqsClient = SqsClient.builder()
             .region(Region.AP_SOUTHEAST_1)
